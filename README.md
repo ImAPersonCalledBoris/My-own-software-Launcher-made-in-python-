@@ -11,7 +11,7 @@ Software created by Mario, if you want to leave a review or suggest an improveme
 `mono Program.exe`
 
 ### Windows
-Just double click the fucking file (or go to cmd and type `python software_launcher.py`
+Just double click the fucking file (or go to cmd and type `python software_launcher.py`)
  
 ### Mac
 I'm poor, i have no idea :joy:
