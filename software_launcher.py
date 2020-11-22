@@ -158,8 +158,8 @@ d. animate your text!""")
 
     
     
-    for letter in software_da_eseguire:
-        if letter in "cC":
+  for letter in software_da_eseguire:
+    if letter in "cC":
             print("   ")
             print("you have chosen C")
             print("   ")
@@ -210,8 +210,8 @@ d. animate your text!""")
                     print("Invalid Input")
 
 
-    for letter in software_da_eseguire:
-        if letter in "dD":
+  for letter in software_da_eseguire:
+    if letter in "dD":
             print("  ")
             print("starting ANIMATE YOUR TEXT...")
             t.sleep(1)
