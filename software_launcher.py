@@ -2,7 +2,7 @@ import time as t
 import os
 
 print("========================================================================================================================")
-print("===============================================VERSION 0.0.7============================================================")
+print("===============================================VERSION 0.0.8============================================================")
 print("========================================================================================================================")
 t.sleep(1)
 print("   ")
@@ -25,7 +25,7 @@ for letter in main_menu_selection:
   print("  ")
   print("""a. interactive book reader [BUGGED]
 b. rock,paper,scissors game
-c. ????????""")
+c. calculator""")
   software_da_eseguire = input("which software you want to run?")
   t.sleep(1)
   
@@ -162,11 +162,51 @@ c. ????????""")
             print("you have chosen C")
             print("   ")
             t.sleep(1)
-            print("starting ????????")
-            t.sleep(10)
-            print("Why are you still here??")
-            t.sleep(5)
-            print("why do you continue to stay??? come on, go to play rock,paper,scissors or go to read an interactive story")
+            print("starting calculator")
+            t.sleep(1)
+            print("  ")
+
+            def add(x, y):
+                return x + y
+            
+            def subtract(x, y):
+                return x - y
+            
+            def multiply(x, y):
+                return x * y
+            
+            def divide(x, y):
+                return x / y
+            
+            print("Select operation.")
+            print("1. Add")
+            print("2.Subtract")
+            print("3.Multiply")
+            print("4.Divide")
+
+            while True:
+                choice = input("Enter choice(1/2/3/4): ")
+
+                if choice in ('1', '2', '3', '4'):
+                    num1 = float(input("Enter first number: "))
+                    num2 = float(input("Enter second number: "))
+
+                    if choice == '1':
+                        print(num1, "+", num2, "=", add(num1, num2))
+
+                    elif choice == '2':
+                        print(num1, "-", num2, "=", subtract(num1, num2))
+                    
+                    elif choice == '3':
+                        print(num1, "*", num2, "=", multiply(num1, num2))
+                    
+                    elif choice == '4':
+                        print(num1, "/", num2, "=", divide(num1, num2))
+
+                    break
+                else:
+                    print("Invalid Input")
+
 
 
 for letter in main_menu_selection:
@@ -176,15 +216,22 @@ for letter in main_menu_selection:
   print("  ")
   print("LOADING CHANGELOG...")
   t.sleep(1)
-  print("""VERSION 0.0.5
+  print("""VERSION 0.0.8
   What's new??
-        -added main menu
-        -added the changelog
-        -added new programs in the software Launcher
-        - added credits
-        -fixed changelog bug
+        -added the calculator to the software launcher
+        -added the rock,paper,scissors game in the software launcher
         -added interactive_book_reader.py in the software launcher
-        -added the rock,paper,scissors game in the software launcher""")
+        -fixed changelog bug
+        - added credits
+        -added the changelog
+        -added main menu
+        
+        
+        
+        
+        
+        
+        """)
   print("  ")
   t.sleep(1)
   print(" To return to the main menu, restart the program :( ")
@@ -199,5 +246,3 @@ for letter in main_menu_selection:
   print("Software created by Mario, if you want to leave a review or suggest an improvement you can write him on discord @ info -Chan#8725  ")
   print("   ")
   print("to return to the main menu restart the program :(  ")
-  
-  
