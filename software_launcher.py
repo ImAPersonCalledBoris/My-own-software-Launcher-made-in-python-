@@ -2,7 +2,7 @@ import time as t
 import os
 
 print("========================================================================================================================")
-print("===============================================VERSION 0.0.8============================================================")
+print("===============================================VERSION 0.0.9============================================================")
 print("========================================================================================================================")
 t.sleep(1)
 print("   ")
@@ -244,6 +244,7 @@ for letter in main_menu_selection:
   t.sleep(1)
   print("""VERSION 0.0.8
   What's new??
+        -added "animate you text" to the software launcher
         -added the calculator to the software launcher
         -added the rock,paper,scissors game in the software launcher
         -added interactive_book_reader.py in the software launcher
