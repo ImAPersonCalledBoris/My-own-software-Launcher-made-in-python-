@@ -6,10 +6,6 @@ Software created by Mario, if you want to leave a review or suggest an improveme
 
 ## How to run it:
 
-### Ubuntu 20.04
-
-`mono Program.exe`
-
 ### Windows
 Just double click the file (or go to cmd and type `python software_launcher.py`)
  
