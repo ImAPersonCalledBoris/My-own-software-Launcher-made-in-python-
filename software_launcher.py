@@ -25,7 +25,8 @@ for letter in main_menu_selection:
   print("  ")
   print("""a. interactive book reader [BUGGED]
 b. rock,paper,scissors game
-c. calculator""")
+c. calculator
+d. animate your text!""")
   software_da_eseguire = input("which software you want to run?")
   t.sleep(1)
   
@@ -156,6 +157,8 @@ c. calculator""")
     player = False
     computer = t[randint(0,2)]
 
+    
+    
     for letter in software_da_eseguire:
         if letter in "cC":
             print("   ")
@@ -206,6 +209,29 @@ c. calculator""")
                     break
                 else:
                     print("Invalid Input")
+
+
+for letter in software_da_eseguire:
+    if letter in "dD":
+        print("  ")
+        print("starting ANIMATE YOUR TEXT...")
+        t.sleep(1)
+        print("  ")
+        import time as t
+        import os
+
+        def animate_text(text):
+            numberOfCharacters=1
+            while True:
+                print("\n")
+                print(text[0:numberOfCharacters])
+                numberOfCharacters += 1
+                if numberOfCharacters > len(text):
+                    numberOfCharacters = 0
+                t.sleep(0.2)  
+
+        testo_da_animare = input("che testo vuoi che venga animato?? > ")
+        animate_text(testo_da_animare) 
 
 
 
