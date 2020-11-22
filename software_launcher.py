@@ -23,7 +23,7 @@ for letter in main_menu_selection:
   t.sleep(1)
   print("  ")
   print("""a. interactive book reader [BUGGED]
-b. password manager""")
+b. rock,paper,scissors game""")
   software_da_eseguire = input("which software you want to run?")
   t.sleep(1)
   
@@ -118,9 +118,10 @@ b. password manager""")
 
   for letter in software_da_eseguire:
    if letter in "bB":
-    print("starting  PASSWORD MANAGER...")
+    print("starting  ROCK,PAPER,SCISSORS GAME...")
     t.sleep(1)
-    print(" COMING SOON... ")
+    print("i'm coding this right now")
+    
 
 
 
