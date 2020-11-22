@@ -1,7 +1,7 @@
 import time as t
 
 print("========================================================================================================================")
-print("===============================================VERSION 0.0.9============================================================")
+print("===============================================VERSION 0.1.0============================================================")
 print("========================================================================================================================")
 t.sleep(1)
 print("   ")
@@ -240,7 +240,7 @@ for letter in main_menu_selection:
         print("  ")
         print("LOADING CHANGELOG...")
         t.sleep(1)
-        print("""VERSION 0.0.9
+        print("""VERSION 0.1.0
         What's new??
         -a bug was fixed that did not allow to open the changelog and credits
         -added the calculator to the software launcher
