@@ -1,5 +1,4 @@
 import time as t
-import os
 
 print("========================================================================================================================")
 print("===============================================VERSION 0.0.9============================================================")
@@ -211,57 +210,49 @@ d. animate your text!""")
                     print("Invalid Input")
 
 
-for letter in software_da_eseguire:
-    if letter in "dD":
-        print("  ")
-        print("starting ANIMATE YOUR TEXT...")
-        t.sleep(1)
-        print("  ")
-        import time as t
-        import os
+    for letter in software_da_eseguire:
+        if letter in "dD":
+            print("  ")
+            print("starting ANIMATE YOUR TEXT...")
+            t.sleep(1)
+            print("  ")
+            import os
 
-        def animate_text(text):
-            numberOfCharacters=1
-            while True:
-                print("\n")
-                print(text[0:numberOfCharacters])
-                numberOfCharacters += 1
-                if numberOfCharacters > len(text):
-                    numberOfCharacters = 0
-                t.sleep(0.2)  
+            def animate_text(text):
+                numberOfCharacters=1
+                while True:
+                    print("\n")
+                    print(text[0:numberOfCharacters])
+                    numberOfCharacters += 1
+                    if numberOfCharacters > len(text):
+                        numberOfCharacters = 0
+                    t.sleep(0.2)  
 
-        testo_da_animare = input("che testo vuoi che venga animato?? > ")
-        animate_text(testo_da_animare) 
+            testo_da_animare = input("che testo vuoi che venga animato?? > ")
+            animate_text(testo_da_animare) 
 
 
 
 for letter in main_menu_selection:
- if letter in "bB":
-  print("you have chosen B")
-  t.sleep(1)
-  print("  ")
-  print("LOADING CHANGELOG...")
-  t.sleep(1)
-  print("""VERSION 0.0.8
-  What's new??
-        -added "animate you text" to the software launcher
+    if letter in "bB":
+        print("you have chosen B")
+        t.sleep(1)
+        print("  ")
+        print("LOADING CHANGELOG...")
+        t.sleep(1)
+        print("""VERSION 0.0.9
+        What's new??
+        -a bug was fixed that did not allow to open the changelog and credits
         -added the calculator to the software launcher
         -added the rock,paper,scissors game in the software launcher
         -added interactive_book_reader.py in the software launcher
         -fixed changelog bug
         - added credits
         -added the changelog
-        -added main menu
-        
-        
-        
-        
-        
-        
-        """)
-  print("  ")
-  t.sleep(1)
-  print(" To return to the main menu, restart the program :( ")
+        -added main menu""")
+        print("  ")
+        t.sleep(1)
+        print(" To return to the main menu, restart the program :( ")
 
 for letter in main_menu_selection:
  if letter in "cC":
