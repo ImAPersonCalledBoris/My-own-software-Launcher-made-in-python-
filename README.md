@@ -3,6 +3,7 @@ Hi! this is a software made with python from which you will have access to all t
 
 Software created by Mario, if you want to leave a review or suggest an improvement you can write him on discord @ info -Chan#8725
 
+## there is also a version with a graphical interface (I'm coding it these days)
 
 ## How to run it:
 
