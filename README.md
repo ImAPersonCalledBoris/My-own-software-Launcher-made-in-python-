@@ -12,4 +12,8 @@ Just double click the file (or go to cmd and type `python software_launcher.py`)
 ### Mac
 I'm poor, i have no idea :joy:
 
+### Linux
+
+sorry,but i don't have linux so i have no idea...
+
 
