@@ -1,8 +1,9 @@
 import time as t
+import os
 
-print("==============================")
-print("========VERSION 0.0.6=========")
-print("==============================")
+print("========================================================================================================================")
+print("===============================================VERSION 0.0.7============================================================")
+print("========================================================================================================================")
 t.sleep(1)
 print("   ")
 print("Hi! welcome to the main menu, from here you can access to the software Launcher or go to see the latest version of the changelog or see the credits")
@@ -23,7 +24,8 @@ for letter in main_menu_selection:
   t.sleep(1)
   print("  ")
   print("""a. interactive book reader [BUGGED]
-b. rock,paper,scissors game""")
+b. rock,paper,scissors game
+c. ????????""")
   software_da_eseguire = input("which software you want to run?")
   t.sleep(1)
   
@@ -120,9 +122,51 @@ b. rock,paper,scissors game""")
    if letter in "bB":
     print("starting  ROCK,PAPER,SCISSORS GAME...")
     t.sleep(1)
-    print("i'm coding this right now")
-    
+    print("   ")
+    from random import randint
 
+    t = ["rock", "paper", "scissors"]
+
+
+    computer = t[randint(0,2)]
+
+
+    player = False
+    while player == False:
+        player = input("rock,paper or scissors? >  ")
+        if player == computer:
+            print("Tie!")
+        elif player == "rock":
+            if computer == "paper":
+                print("You lose", computer, "covers", player)
+            else:
+                print("You win!", player, "smashes", computer)
+        elif player == "paper":
+            if computer == "scissors":
+                print("You lose", computer, "cut", player)
+            else:
+                print("You win!", player, "covers")
+        elif player == "scissors":
+            if computer == "rock":
+                print("You lose", computer, "smashes", player)
+            else:
+                print("You win!", player, "cut", computer)
+        else:
+            print("That's not a valid play. Check your spelling!")
+    player = False
+    computer = t[randint(0,2)]
+
+    for letter in software_da_eseguire:
+        if letter in "cC":
+            print("   ")
+            print("you have chosen C")
+            print("   ")
+            t.sleep(1)
+            print("starting ????????")
+            t.sleep(10)
+            print("Why are you still here??")
+            t.sleep(5)
+            print("why do you continue to stay??? come on, go to play rock,paper,scissors or go to read an interactive story")
 
 
 for letter in main_menu_selection:
@@ -139,7 +183,8 @@ for letter in main_menu_selection:
         -added new programs in the software Launcher
         - added credits
         -fixed changelog bug
-        -added interactive_book_reader.py in the software launcher""")
+        -added interactive_book_reader.py in the software launcher
+        -added the rock,paper,scissors game in the software launcher""")
   print("  ")
   t.sleep(1)
   print(" To return to the main menu, restart the program :( ")
@@ -154,3 +199,5 @@ for letter in main_menu_selection:
   print("Software created by Mario, if you want to leave a review or suggest an improvement you can write him on discord @ info -Chan#8725  ")
   print("   ")
   print("to return to the main menu restart the program :(  ")
+  
+  
