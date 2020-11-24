@@ -1,16 +1,16 @@
 import time as t
 
 print("========================================================================================================================")
-print("===============================================VERSION 0.1.0============================================================")
+print("===============================================VERSION 0.1.1============================================================")
 print("========================================================================================================================")
 t.sleep(1)
 print("   ")
 print("Hi! welcome to the main menu, from here you can access to the software Launcher or go to see the latest version of the changelog or see the credits")
 t.sleep(1)
 print("  ")
-print("""a. go to the software Launcher
-b. go to the changelog
-c. go to  credits""")
+print("""A. go to the software Launcher
+B. go to the changelog
+C. go to  credits""")
 print("  ")
 main_menu_selection = input("what do you want to do? >  ")
 
@@ -22,15 +22,19 @@ for letter in main_menu_selection:
   print("I'm redirecting you to the software Launcher...")
   t.sleep(1)
   print("  ")
-  print("""a. interactive book reader [BUGGED]
-b. rock,paper,scissors game
-c. calculator
-d. animate your text!""")
+  print("""A. interactive book reader [BUGGED]
+B. Rock,Paper,Scissors Game
+C. Calculator
+D. Animate your text!
+E. Timer [BUGGED]""")
   software_da_eseguire = input("which software you want to run?")
   t.sleep(1)
   
-  for letter in software_da_eseguire:
+for letter in software_da_eseguire:
    if letter in "aA":
+        print("you chose A")
+        t.sleep(1)
+        print("   ")
         print("Starting INTERACTIVE BOOK READER ...")
         t.sleep(1)
         print("   ")
@@ -118,8 +122,11 @@ d. animate your text!""")
                       
 
 
-  for letter in software_da_eseguire:
+for letter in software_da_eseguire:
    if letter in "bB":
+    print("you chose B")
+    t.sleep(1)
+    print("    ")
     print("starting  ROCK,PAPER,SCISSORS GAME...")
     t.sleep(1)
     print("   ")
@@ -158,10 +165,10 @@ d. animate your text!""")
 
     
     
-  for letter in software_da_eseguire:
+for letter in software_da_eseguire:
     if letter in "cC":
             print("   ")
-            print("you have chosen C")
+            print("you have chose C")
             print("   ")
             t.sleep(1)
             print("starting calculator")
@@ -210,8 +217,10 @@ d. animate your text!""")
                     print("Invalid Input")
 
 
-  for letter in software_da_eseguire:
+for letter in software_da_eseguire:
     if letter in "dD":
+            print("you chose D")
+            t.sleep(1)
             print("  ")
             print("starting ANIMATE YOUR TEXT...")
             t.sleep(1)
@@ -232,6 +241,27 @@ d. animate your text!""")
             animate_text(testo_da_animare) 
 
 
+for letter in software_da_eseguire:
+    if letter in "eE":
+        print("you have chose E")
+        t.sleep(1)
+        print("  ")
+        print("LOADING TIMER...")
+        t.sleeep(1)
+        def countdown(t):
+
+            while t:
+                mins, secs = divmod(t, 60)
+                timer = '{:02d}:{:02d}'.format(mins, secs)
+                print(timer, end="\r")
+                t.sleep(1)
+                t -= 1
+
+            print("Timer Finished!")
+        
+        t = input("Enter the time in seconds: ")
+
+        countdown(int(t))
 
 for letter in main_menu_selection:
     if letter in "bB":
@@ -240,19 +270,22 @@ for letter in main_menu_selection:
         print("  ")
         print("LOADING CHANGELOG...")
         t.sleep(1)
-        print("""VERSION 0.1.0
+        print("""VERSION 0.1.1
         What's new??
+        -added the timer on the software launcher
         -a bug was fixed that did not allow to open the changelog and credits
-        -added the calculator to the software launcher
-        -added the rock,paper,scissors game in the software launcher
-        -added interactive_book_reader.py in the software launcher
+        -added the calculator on the software launcher
+        -added the rock,paper,scissors game on the software launcher
+        -added interactive_book_reader on the software launcher
         -fixed changelog bug
-        - added credits
+        -added credits
         -added the changelog
         -added main menu""")
         print("  ")
         t.sleep(1)
         print(" To return to the main menu, restart the program :( ")
+
+
 
 for letter in main_menu_selection:
  if letter in "cC":
