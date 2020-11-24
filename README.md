@@ -3,7 +3,7 @@ Hi! this is a software made with python from which you will have access to all t
 
 Software created by Mario, if you want to leave a review or suggest an improvement you can write him on discord @ info - Chan#8725
 
-## there is also a version with a graphical interface [DELETED PROJECT :if you want to develop it I leave you the repository]: you can find it here ----> 
+## there is also a version with a graphical interface [DELETED PROJECT :if you want to develop it I leave you the repository]: you can find it on the link below----> 
 ##### https://github.com/ImAPersonCalledBoris/GUI-My-own-software-Launcher-made-in-python-
 
 ## How to run it:
