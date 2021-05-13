@@ -1,7 +1,9 @@
 import time as t
 
-print("========================================================================================================================")
-print("===============================================VERSION 0.1.1============================================================")
+
+
+print("====================CREATED BY CEO_del_Freddo===========================================================================")
+print("===============================================VERSION 0.1.5============================================================")
 print("========================================================================================================================")
 t.sleep(1)
 print("   ")
@@ -10,25 +12,26 @@ t.sleep(1)
 print("  ")
 print("""A. go to the software Launcher
 B. go to the changelog
-C. go to  credits""")
+C. go to  credits
+D. Bug List""")
 print("  ")
 main_menu_selection = input("what do you want to do? >  ")
 
 for letter in main_menu_selection:
- if letter in "aA":
-  print("you have chosen A")
-  t.sleep(1)
-  print("  ")
-  print("I'm redirecting you to the software Launcher...")
-  t.sleep(1)
-  print("  ")
-  print("""A. interactive book reader [BUGGED]
+    if letter in "aA":
+        print("you have chosen A")
+        t.sleep(1)
+        print("  ")
+        print("I'm redirecting you to the software Launcher...")
+        t.sleep(1)
+        print("  ")
+        print("""A. interactive book reader [BUGGED]
 B. Rock,Paper,Scissors Game
 C. Calculator
 D. Animate your text!
 E. Timer [BUGGED]""")
-  software_da_eseguire = input("which software you want to run?")
-  t.sleep(1)
+    software_da_eseguire = input("which software you want to run?  > ")
+    t.sleep(1)
   
 for letter in software_da_eseguire:
    if letter in "aA":
@@ -38,17 +41,17 @@ for letter in software_da_eseguire:
         print("Starting INTERACTIVE BOOK READER ...")
         t.sleep(1)
         print("   ")
-        print("MESSAGGIO_FROM_DEVELOPER: Hello, unfortunately this software is not finished yet and still does not have a graphical interface, but if you are running it in preview it may mean only two things, or you are a friend of mine to whom it relaxes all the updates or you are a beta tester of Github, Either way, if you want to give me feedback and advice you can easily write me about discord! @ info - Chan#8725 ")
+        print("MESSAGE_FROM_DEVELOPER: Hello, unfortunately this software is not finished yet and still does not have a graphical interface, but if you are running it in preview it may mean only two things, or you are a friend of mine to whom it relaxes all the updates or you are a beta tester of Github, Either way, if you want to give me feedback and advice you can easily write me about discord! @ CEO_del_Freddo#8725 ")
         t.sleep(3)
         print("   ")
         print("===========-NEW STORIES COMING SOON!-======================================================================")
-        print("=================-YOU ARE RUNNING THE PRE-ALPHA 0.1.0 VERSION OF INTERACTIVE PYTHON BOOK-==================")
+        print("=================-YOU ARE RUNNING THE ALPHA 0.1.2 VERSION OF INTERACTIVE PYTHON BOOK-==================")
         print("=======================================- TO SEND FEEDBACK WRITE ME ON DISCORD info - Chan #8725 -==========")
         print("     ")
         t.sleep(1)
 
-        player_name = input("Hello! Before we begin, what’s your name? > ")
-        print("Perfect, so you’re " + player_name + " right?")
+        player_name_storia_1 = input("Hello! Before we begin, what’s your name? > ")
+        print("Perfect, so you’re " + player_name_storia_1 + " right?")
         risposta_nome = input("> ")
 
         for letter in risposta_nome:
@@ -57,10 +60,10 @@ for letter in software_da_eseguire:
 
         for letter in risposta_nome:
             if letter in "noNO":
-                player_name = input("Isn’t that right? Rewrite it here! > ")
+                player_name_storia_1 = input("Isn’t that right? Rewrite it here! > ")
 
         print("  ")
-        print("Ok " + player_name + " you can choose one of these stories [ IN THE FUTURE THERE WILL BE OTHERS ] ")
+        print("Ok " + player_name_storia_1 + " you can choose one of these stories [ IN THE FUTURE THERE WILL BE OTHERS ] ")
         t.sleep(1)
         print("   ")
         print("[ONE] = STYLE = Fantasy | TITLE = Arganock the Knight of Regalopia")
@@ -72,8 +75,9 @@ for letter in software_da_eseguire:
         print("NEW STORIES COMING SOON...")
         t.sleep(2)
         storia_da_leggere = input("So, what story do you want to read?? [WRITE THE NUMBER IN LETTERS] > ")
+        
         for letter in storia_da_leggere:    
-            if letter in "unoUNOoneONE":
+            if letter in "unoUNOoneONE1":
                 print("Selected story: Arganock the knight of Regalopia ") 
                 t.sleep(1)
                 print(" ")
@@ -105,19 +109,50 @@ for letter in software_da_eseguire:
                         t.sleep(1)
                         print("...and she says her name is " + nome_recluta + " ")
                         t.sleep(1)
-                        print("STORY TO END")
+                        print("you say <ok> ")
+                        print("")
+                        print("   ")
+                        print("STORY NOT FINISHED YET")
                     
         for letter in storia_da_leggere:
-            if letter in "twoTWO":
+            if letter in "twoTWO2":
                 print("LOADING HISTORY, WAITING...")
                 t.sleep(1)
-                print("STORY NOT YET IMPLEMENTED :( ")
+                
+                player_name_storia_2 = input("what is your name?  > ")
+
+                for letter in risposta_nome:
+                    if letter in "yesYES":
+                        print("Name entered correctly!")
+
+                for letter in risposta_nome:
+                    if letter in "noNO":
+                        player_name_storia_2 = input("Isn’t that right? Rewrite it here! > ")
+
+                print("   ")
+                print("STORY NOT YET IMPLEMENTED,SORRY :( ")
+                
+
 
         for letter in storia_da_leggere:
-            if letter in "threeTHREE":
+            if letter in "threeTHREE3":
                 print("LOADING HISTORY, WAITING...")
                 t.sleep(1)
-                print("STORY NOT YET IMPLEMENTED :( ")
+                
+                t.sleep(1)
+                
+                player_name_storia_3 = input("what is your name?  > ")
+
+                for letter in risposta_nome:
+                    if letter in "yesYES":
+                        print("Name entered correctly!")
+
+                for letter in risposta_nome:
+                    if letter in "noNO":
+                        player_name_storia_3 = input("Isn’t that right? Rewrite it here! > ")
+                
+                print("   ")
+                print("STORY NOT YET IMPLEMENTED,SORRY :( ")
 
                       
 
@@ -168,7 +203,7 @@ for letter in software_da_eseguire:
 for letter in software_da_eseguire:
     if letter in "cC":
             print("   ")
-            print("you have chose C")
+            print("you chose C")
             print("   ")
             t.sleep(1)
             print("starting calculator")
@@ -241,9 +276,10 @@ for letter in software_da_eseguire:
             animate_text(testo_da_animare) 
 
 
+
 for letter in software_da_eseguire:
     if letter in "eE":
-        print("you have chose E")
+        print("you chose E")
         t.sleep(1)
         print("  ")
         print("LOADING TIMER...")
@@ -263,6 +299,8 @@ for letter in software_da_eseguire:
 
         countdown(int(t))
 
+
+
 for letter in main_menu_selection:
     if letter in "bB":
         print("you have chosen B")
@@ -270,8 +308,10 @@ for letter in main_menu_selection:
         print("  ")
         print("LOADING CHANGELOG...")
         t.sleep(1)
-        print("""VERSION 0.1.1
+        print("""VERSION 0.1.4
         What's new??
+        -added name form in story 2 and 3 in the interactive story reader
+        -added a new functions,if you find this you are a good person :) (TIP:press F in software launcher and then wait 15 second ;) )
         -added the timer on the software launcher
         -a bug was fixed that did not allow to open the changelog and credits
         -added the calculator on the software launcher
@@ -288,12 +328,28 @@ for letter in main_menu_selection:
 
 
 for letter in main_menu_selection:
- if letter in "cC":
-  print("  ")
-  t.sleep(1)
-  print("you have chosen C")
-  t.sleep(1)
-  print("  ")
-  print("Software created by Mario, if you want to leave a review or suggest an improvement you can write him on discord @ info -Chan#8725  ")
-  print("   ")
-  print("to return to the main menu restart the program :(  ")
+    if letter in "cC":
+        print("  ")
+        t.sleep(1)
+        print("you have chosen C")
+        t.sleep(1)
+        print("  ")
+        print("Software created by Mario, if you want to leave a review or suggest an improvement you can write him on discord @ info -Chan#8725  ")
+        print("   ")
+        print("to return to the main menu restart the program :(  ")
+
+for letter in main_menu_selection:
+    if letter in "dD":
+        print("""THIS IS THE LIST OF ALL THE KNOW BUG OF THIS SOFTWARE
+        
+        INTERACTIVE STORY READER:
+        -some things doesn't work and i don't want to fix theese bug
+        
+        TIMER:
+        -for some reason doesn't work... :( 
+        
+        MAIN MENU' SELECTION:
+        -if you chose to view the credits ( C ),changelog ( B ) or bug list ( D ) for some reason
+         python start the software launcher... and if you press enter without insert any letter ,
+         the credit, the changelog or the bug list magically appears...
+        """)
